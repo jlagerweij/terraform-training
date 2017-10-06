@@ -22,7 +22,7 @@ terraform {
   backend "atlas" {
     name = "jlagerweij/training"
   }
-}
+}aasdfasdfasdfasdf
 
 variable "aws_access_key" {}
 
