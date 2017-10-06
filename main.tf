@@ -46,7 +46,7 @@ resource "aws_instance" "web" {
   ami                    = "ami-5a922335"
   instance_type          = "t2.micro"
   subnet_id              = "subnet-faec2e91"
-  vpc_security_group_ids = ["sg-c7eb27ad"]
+  vpc_security_group_ids = ["sg-c7eb27ade"]
   count                  = "${var.num_webs}"
 
   tags {
